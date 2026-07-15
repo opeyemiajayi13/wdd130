@@ -1,8 +1,116 @@
-main img {
-    width: 150px;
-    height: auto;
+:root {
+    --primary-color: steelblue;
+    --secondary-color: #f4f4f4;
+    --text-color: #333;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #1d5f91;
+}
+
+/* Main Content */
+main {
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--white);
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: var(--primary-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 p {
-    padding: 0;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+/* Main Image */
+main img {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin: 0 0 15px 20px;
+    border: 2px solid #333;
+    padding: 4px;
+    box-shadow: 0 0 15px gray;
+}
+
+/* Aside */
+aside {
+    width: 20rem;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #999;
+    background-color: #e6f2ff;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #999;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* Clear floated image */
+footer,
+aside {
+    clear: both;
 }
