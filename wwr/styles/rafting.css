@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #396e94;
+    --secondary-color: #e7c24f;
+    --accent1-color: #a43312;
+    --accent2-color: #ffffff;
+
+}
+
 /* Reset */
 * {
     margin: 0;
