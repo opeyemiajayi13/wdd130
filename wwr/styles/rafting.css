@@ -1,8 +1,9 @@
 :root {
     --primary-color: #d6c2f2;
-    --accent-color: var(--black-color);
-    --text-color: var(--white-color);
+    --accent-color: #000000;
+    --text-color: #ffffff;
     --font-main: Arial, Helvetica, sans-serif;
+    v
 }
 
 * {
@@ -20,7 +21,7 @@ header {
     grid-template-columns: 150px 1fr;
     align-items: center;
     padding: 20px;
-    background-color: #d6c2f2;
+    background-color: var(--primary-color);
 }
 
 header img {
@@ -34,7 +35,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: var(--accent-color);
     font-weight: bold;
 }
 
@@ -51,7 +52,7 @@ nav a {
     top: 20px;
     width: 100%;
     text-align: center;
-    color: white;
+    color: var(--text-color);
 }
 
 .hero article {
@@ -120,7 +121,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #d6c2f2;
+    background-color: var(--primary-color);
     padding: 20px;
     margin-top: 20px;
 }
