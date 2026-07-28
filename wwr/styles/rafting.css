@@ -152,29 +152,3 @@ footer {
     flex-direction: column;
     gap: 15px;
 }
-
-/* Default styles (for laptops/desktops) */
-body {
-    font-size: 18px;
-    margin: 40px;
-}
-
-/* Mobile styles */
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-        margin: 10px;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        /* stack menu items */
-    }
-
-    img {
-        max-width: 100%;
-        /* scale images to fit screen */
-        height: auto;
-    }
-}
