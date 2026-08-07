@@ -280,3 +280,108 @@ footer {
         text-align: center;
     }
 }
+
+/* =========================
+   TRIPS PAGE
+   ========================= */
+
+.trips-hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: var(--primary-color);
+}
+
+.trips-hero h1 {
+    margin-bottom: 15px;
+}
+
+.trips-hero p {
+    margin-bottom: 25px;
+}
+
+/* Call-to-action button */
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    opacity: 0.8;
+}
+
+/* Trip cards */
+
+.trip-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 40px 5%;
+}
+
+.trip-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.trip-card div {
+    padding: 20px;
+}
+
+.trip-card h2 {
+    margin-top: 0;
+}
+
+/* Table */
+
+.trip-table-section {
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.trip-table-section h2 {
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th,
+td {
+    border: 1px solid #555555;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* Final CTA */
+
+.trip-cta {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.trip-cta p {
+    margin-bottom: 25px;
+}
