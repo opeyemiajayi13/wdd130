@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White Water Rafting | Home</title>
+    <meta name="description"
+      content="Discover exciting white water rafting adventures, family trips, and unforgettable river experiences with White Water Rafting Adventures.">
+    <meta name="author" content="Opeyemi Ajayi">
+    <title>Contact us | White Water Rafting Adventures</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -19,12 +22,53 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section class="home-form">
+            <h2>Plan Your Rafting Adventure</h2>
+
+            <form action="#" method="post">
+
+                <label for="home-name">Full Name:</label>
+                <input type="text" id="home-name" name="home-name" required>
+
+                <fieldset>
+                    <legend>Choose Your Trip:</legend>
+
+                    <label for="home-family">
+                        <input type="radio" id="home-family" name="home-trip" value="family"
+                          required>
+                        Family Adventure
+                    </label>
+
+                    <label for="home-river">
+                        <input type="radio" id="home-river" name="home-trip" value="river-rush">
+                        River Rush
+                    </label>
+
+                    <label for="home-extreme">
+                        <input type="radio" id="home-extreme" name="home-trip"
+                          value="extreme-rapids">
+                        Extreme Rapids
+                    </label>
+                </fieldset>
+
+                <label for="home-message">Your Message:</label>
+                <textarea id="home-message" name="home-message" rows="5"></textarea>
+
+                <label for="home-updates">
+                    <input type="checkbox" id="home-updates" name="home-updates" value="yes">
+                    I would like to receive rafting updates.
+                </label>
+
+                <button type="submit">Plan My Adventure</button>
+
+            </form>
+        </section>
 
         <!-- Hero Section -->
         <section class="hero">
